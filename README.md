@@ -39,5 +39,14 @@ docker save -o teamname.tar.gz teamname
 ```
 Please send us your download link, Finnaly!
 
+# Testing Stage:
+We will test your model using the provided Docker image file (i.e., teamname.tar.gz).
+We will type the next two commands during the testing stage:
+```
+docker load -i teamname.tar.gz
+docker container run --gpus "device=0" -m 60G --name teamname --rm -v $PWD/input_images/:/workspace/inputs/ -v $PWD/prediction_results/:/workspace/outputs/ teamname:latest /bin/bash -c "sh predict.sh"
+```
+The video illustrates the particular testing procedure.
+
 # Acknowlegement
 The code of this repository is borrowed from [Huang's work](https://github.com/Ziyan-Huang/FLARE22).
