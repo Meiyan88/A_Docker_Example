@@ -40,4 +40,4 @@ docker save -o teamname.tar.gz teamname
 Please send us your download link, Finnaly!
 
 # Acknowlegement
-The code this repository is borrowed from [Huang's work](https://github.com/Ziyan-Huang/FLARE22).
+The code of this repository is borrowed from [Huang's work](https://github.com/Ziyan-Huang/FLARE22).
