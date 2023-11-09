@@ -3,6 +3,7 @@ This is the procedure of creating a Docker Image for uploading your model.
 
 Before starting this process, you need to install Docker on your server.
 
+In all the following steps, you need to replace 'teamname' with your own teamname
 # Step 1
 First, copy all necessary files (such as your code, model weights, shell scripts, and others) into the same directory:
 ```
