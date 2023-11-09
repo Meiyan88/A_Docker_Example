@@ -24,7 +24,7 @@ Note that when you create this, Docker will mount the Image named 'teamname' aut
 
 Verify if your Dokcer Image is available.
 
-First, confirm that the Docker image with the name "teamname" is mounted.
+First, confirm that the Docker Image with the name "teamname" is mounted.
 
 Next, you need to make a directory called "input_images" and move the testing CT scans into it:
 
@@ -39,7 +39,7 @@ Of course, you can change the device number of your GPU, but please note that ou
 
 
 # Step4
-Finally, all you have to do is package your Docker image using the following command line and give us a download link:
+Finally, all you have to do is package your Docker Image using the following command line and give us a download link:
 ```
 docker save -o  teamname.tar.gz teamname
 ```
