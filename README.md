@@ -46,7 +46,7 @@ We will type the next two commands during the testing stage:
 docker load -i teamname.tar.gz
 docker container run --gpus "device=0" -m 60G --name teamname --rm -v $PWD/input_images/:/workspace/inputs/ -v $PWD/prediction_results/:/workspace/outputs/ teamname:latest /bin/bash -c "sh predict.sh"
 ```
-The video illustrates the particular testing procedure.
+The [video](https://github.com/Meiyan88/A_Docker_Example_for_ISICDM2023/blob/main/testing_stage.mp4) illustrates the particular testing procedure.
 
 # Acknowlegement
 The code of this repository is borrowed from [Huang's work](https://github.com/Ziyan-Huang/FLARE22).
