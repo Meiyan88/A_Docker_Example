@@ -19,11 +19,10 @@ Docker will mount the image named 'teamname' once you run this command.
 
 # Step3
 Test the Docker image.
+
+Copy the testing CT scans to the 'input_images' directory:
 ```
 mkdir input_images
-```
-Then, copy the testing CT scans to the 'input_images' directory:
-```
 cp -r <scans_directory>/*  $PWD/input_images
 ```
 Then type the command we provided:
