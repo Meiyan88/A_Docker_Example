@@ -1,4 +1,4 @@
-# A_Docker_Example_for_ISICDM2023
+# A_Docker_Example
 This is the procedure of creating a Docker Image for uploading your model.
 
 Before starting this process, you need to install Docker on your server.
